@@ -46,6 +46,27 @@
             color: white;
         }
 
+        .border-newprodsA {
+            border: 1px #e1e3e4;
+            border-style: none solid solid none;
+        }
+
+        .border-newprodsB {
+            border: 1px #e1e3e4;
+            border-style: none none solid none;
+        }
+
+        .border-newprodsC {
+            border: 1px #e1e3e4;
+            border-style: none solid none none;
+        }
+
+        .border-newprodsD {
+            border: 1px #e1e3e4;
+            border-style: none;
+        }
+
+
         /* X-Small devices (portrait phones, less than 576px) */
         /* No media query for `xs` since this is the default in Bootstrap */
 
@@ -65,10 +86,43 @@
             .contenedor {
                 padding: 0 var(--padding-contenedor-desktop);
             }
+
+            .border-newprodsA {
+                border-style: none solid solid none;
+            }
+
+            .border-newprodsB {
+                border-style: none solid solid none;
+            }
+
+            .border-newprodsC {
+                border-style: none none solid none;
+            }
+
+            .border-newprodsD {
+                border-style: none solid none none;
+            }
         }
 
         /* Large devices (desktops, 992px and up) */
-        @media (min-width: 992px) {}
+        @media (min-width: 992px) {
+
+            .border-newprodsA {
+                border-style: none solid none none;
+            }
+
+            .border-newprodsB {
+                border-style: none solid none none;
+            }
+
+            .border-newprodsC {
+                border-style: none solid none none;
+            }
+
+            .border-newprodsD {
+                border-style: none;
+            }
+        }
 
         /* X-Large devices (large desktops, 1200px and up) */
         @media (min-width: 1200px) {}
@@ -87,6 +141,10 @@
         .by {
             border: 1px yellow solid;
         }
+        .btn-newprod {
+  color: #fff;
+  border-color: var(--color-principal-amarillo);
+}
     </style>
 
 </head>
@@ -126,13 +184,13 @@
             </button>
             <div class=" collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class=" navbar-nav mb-2 mb-lg-0 ms-auto ffUbuMed">
-                    <li class="nav-item" style="font-size: 1.1rem;">
+                    <li class="nav-item" style="font-size: 1rem;">
                         <a class="nav-link active" aria-current="page" href="#"> Inicio</a>
                     </li>
-                    <li class="nav-item" style="font-size: 1.1rem;">
+                    <li class="nav-item" style="font-size: 1rem;">
                         <a class="nav-link" style="color: #a0a6f8;" href="#"> Nosotros</a>
                     </li>
-                    <li class="nav-item dropdown" style="font-size: 1.1rem;">
+                    <li class="nav-item dropdown" style="font-size: 1rem;">
                         <a class="nav-link dropdown-toggle" style="color: #a0a6f8;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Productos
                         </a>
@@ -143,41 +201,135 @@
                             <li><a class="dropdown-item" style="background-color: white;color: #828c91;padding: 6px 24px;" href="#">COVID-19</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item" style="font-size: 1.1rem;">
+                    <li class="nav-item" style="font-size: 1rem;">
                         <a class="nav-link" style="color: #a0a6f8;" href="#">Colaboración</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main style="background-color: #f3f5f6;">
+    <main style="background-color: #f3f5f6;padding-bottom: 30rem;">
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div> -->
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./images/material-vidrio.jpg" class="d-block w-100" alt="material-vidrio">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/equipo-laboratorio.jpg" class="d-block w-100" alt="equipo-laboratorio">
-                </div>
-                <div class="carousel-item">
+                <div class="carousel-item active" data-bs-interval="5000">
                     <img src="./images/covid-19.jpg" class="d-block w-100" alt="covid-19">
+                    <div class="carousel-caption d-none d-md-block">
+                        <!-- <h4>Equipos de Laboratorio</h4> -->
+                        <!-- <p></p> -->
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="./images/equipo-laboratorio.jpg" class="d-block w-100" alt="equipo-laboratorio">
+                    <div class="carousel-caption d-none d-md-block">
+                        <!-- <h4>Insumos Médicos</h4> -->
+                        <!-- <p></p> -->
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="./images/material-vidrio.jpg" class="d-block w-100" alt="material-vidrio">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="ffRalEBo">Material de Vidrio</h3>
+                        <!-- <p></p> -->
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+
+        <div class="contenedor">
+            <div class="pt-5 pb-3 d-flex justify-content-center ffRalBol" style="color: #081077;">
+                <h2>NUEVOS PRODUCTOS</h2>
+            </div>
+            <div class="row mx-0" style="border: 1px solid #e1e3e4;border-radius: 5px;background-color: white;">
+                <div class="col-6 col-md-4 col-lg-3 px-0 border-newprodsA">
+                    <div class="py-4 px-5">
+                        <img src="./images/matraz-aforado.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <div class="px-4 ffUbuMed">
+                            <div class="py-3" style="color: #081077;">
+                                Matraz aforado graduacion azul, clase A, tapa de plástico
+                            </div>
+                            <div class="py-3 d-grid gap-2">
+                                <!-- <button type="button" class="btn btn-newprod" style="color: #faea00;"></button> -->
+                                <button type="button" class="btn btn-outline-warning">Más características</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 px-0 border-newprodsB">
+                    <div class="py-4 px-5">
+                        <img src="./images/PINZA-PARA-CRISOL.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <div class="px-4 ffUbuMed">
+                            <div class="py-3" style="color: #081077;">
+                                Pinza para crisol mediana
+                            </div>
+                            <div class="py-3 d-grid gap-2" style="padding-top:100%;">
+                                <!-- <button type="button" class="btn btn-newprod" style="color: #faea00;"></button> -->
+                                <button type="button" class="btn btn-outline-warning">Más características</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 px-0 border-newprodsC">
+                    <div class="py-4 px-5">
+                        <img src="./images/pruebas-rapidas.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <div class="px-4 ffUbuMed">
+                            <div class="py-3" style="color: #081077;">
+                                Pruebas rápidas para COVID
+                            </div>
+                            <div class="py-3 d-grid gap-2">
+                                <!-- <button type="button" class="btn btn-newprod" style="color: #faea00;"></button> -->
+                                <button type="button" class="btn btn-outline-warning">Más características</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 px-0 border-newprodsD">
+                    <div class="py-4 px-5">
+                        <img src="./images/Bunsen_burner.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <div class="px-4 ffUbuMed">
+                            <div class="py-3" style="color: #081077;">
+                                Mechero Bunssen
+                            </div>
+                            <div class="py-3 d-grid gap-2">
+                                <!-- <button type="button" class="btn btn-newprod" style="color: #faea00;"></button> -->
+                                <button type="button" class="btn btn-outline-warning">Más características</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
 
     </main>
 

@@ -16,6 +16,14 @@
     src: url(./ubuntu/Ubuntu-Regular.ttf);
 }
 @font-face {
+    font-family: Raleway-SemiBold;
+    src: url(./raleway/static/Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(./raleway/static/Raleway-Bold.ttf);
+}
+@font-face {
     font-family: Raleway-Black;
     src: url(./raleway/static/Raleway-Black.ttf);
 }
