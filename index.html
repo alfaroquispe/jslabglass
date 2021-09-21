@@ -141,10 +141,20 @@
         .by {
             border: 1px yellow solid;
         }
+
         .btn-newprod {
-  color: #fff;
-  border-color: var(--color-principal-amarillo);
-}
+            color: #fff;
+            border-color: var(--color-principal-amarillo);
+        }
+
+        .parallax {
+            background-image: url("./images/img-us.jpg");
+            min-height: 350px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     </style>
 
 </head>
@@ -157,7 +167,7 @@
                 <div class=" info ffUbuReg d-flex align-items-center justify-content-center flex-wrap">
                     <div class="dato px-1"><img class="" src="./images/map-pin.svg" alt=""> Ciudad Satelite, C. 14, N° 2096 - Miraflores, Av. del Ejercito, N° 1115</div>
                     <div class="dato px-1"><img class="pe-1" src="./images/mail.svg" alt="">ventas@jslabglass.com</div>
-                    <div class="dato px-1"><img class="" src="./images/phone.svg" alt=""> 2913637, 76584482</div>
+                    <div class="dato px-1"><img class="" src="./images/phone.svg" alt=""> 2913637 - 76584482</div>
                 </div>
             </div>
         </div>
@@ -208,7 +218,7 @@
             </div>
         </div>
     </nav>
-    <main style="background-color: #f3f5f6;padding-bottom: 30rem;">
+    <main style="background-color: #f3f5f6;">
 
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <!-- <div class="carousel-indicators">
@@ -253,7 +263,7 @@
             <div class="pt-5 pb-3 d-flex justify-content-center ffRalBol" style="color: #081077;">
                 <h2>NUEVOS PRODUCTOS</h2>
             </div>
-            <div class="row mx-0" style="border: 1px solid #e1e3e4;border-radius: 5px;background-color: white;">
+            <div class="row mx-0 mb-5" style="border: 1px solid #e1e3e4;border-radius: 5px;background-color: white;">
                 <div class="col-6 col-md-4 col-lg-3 px-0 border-newprodsA">
                     <div class="py-4 px-5">
                         <img src="./images/matraz-aforado.jpg" class="img-fluid" alt="">
@@ -318,20 +328,131 @@
                         </div>
                     </div>
                 </div>
-
             </div>
+        </div>
 
+        <div class="parallax">
+            <div class="p-5 " style="background-color: rgba(0, 0, 0, 0.2);">
+                <div class="mt-4 pt-5 pb-3 d-flex justify-content-center ffRalBol" style="color: white;">
+                    <h1 style="font-size: 3rem">NOSOTROS</h1>
+                </div>
+                <div class="px-5 pb-4 d-flex justify-content-center ffRalReg" style="color: white;">
+                    <h3 class="px-5 text-center">En JSLABGLASS buscamos brindar a nuestros clientes materiales, insumos y equipos de calidad a un precio justo. En nuestro trabajo tenemos un conocimiento real, una sólida experiencia y actualizaciones frecuentes sobre productos.</h3>
+                </div>
+                <div class="px-5 pb-4 d-flex justify-content-center ffRalReg" style="color: white;">
+                    <button type="button" class="p-3 btn btn-outline-light">ACERCA DE NOSOTROS</button>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor">
+            <div class="pt-5 pb-3 d-flex justify-content-center ffRalBol" style="color: #081077;">
+                <h2>OFRECEMOS CALIDAD</h2>
+            </div>
+            <div class="row mx-0">
+                <div class="col-3 px-0 py-3 d-flex align-items-stretch">
+                    <img class="me-3" src="./images/truck.svg" height="30" alt="">
+                    <div class="pe-4" style="">
+                        <h6  class="ffUbuMed" style="color: #081077;" >Envíos Rápidos</h6>
+                        <h6  class="ffUbuReg" style="font-size: 15px; color: #8aa6eb" >Nos movemos lo antes posible para llevar tu pedido.</h6>
+                    </div>
+                </div>
+                <div class="col-3 px-0 py-3 d-flex align-items-stretch">
+                    <img class="me-3" src="./images/shopping-cart.svg" height="30" alt="">
+                    <div class="pe-4" style="">
+                        <h6  class="ffUbuMed" style="color: #081077;" >Compra Satisfactoria</h6>
+                        <h6  class="ffUbuReg" style="font-size: 15px; color: #8aa6eb" >Productos de diversas marcas y precios.</h6>
+                    </div>
+                </div>
+                <div class="col-3 px-0 py-3 d-flex align-items-stretch">
+                    <img class="me-3" src="./images/check-square.svg" height="30" alt="">
+                    <div class="pe-4" style="">
+                        <h6  class="ffUbuMed" style="color: #081077;" >Tenemos lo que Buscas</h6>
+                        <h6  class="ffUbuReg" style="font-size: 15px; color: #8aa6eb" >Encontrarás tu producto en nuestras tiendas.</h6>
+                    </div>
+                </div>
+                <div class="col-3 px-0 py-3 d-flex align-items-stretch">
+                    <img class="me-3" src="./images/user-check.svg" height="30" alt="">
+                    <div class="pe-1" style="">
+                        <h6  class="ffUbuMed" style="color: #081077;" >Atención al Cliente</h6>
+                        <h6  class="ffUbuReg" style="font-size: 15px; color: #8aa6eb" >Estamos conectados y listos para atenderte.</h6>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
 
+    </main>
 
+    <footer>
+        <div class="contenedor" style="background-color: #f3f5f6;">
+            <div class="pt-5 pb-3">
+                <div style="border-top: 1px solid #e1e3e4 ">
+                    <div class="row mx-0  pt-5 pb-4">
+                        <div class="col-6 px-0 ffRalBol">
+                            <div style="color: #677279;">
+                                <h5 class="pb-2">Contáctanos</h5>                           
+                            </div>
+                            
+                            <div class="ffRalMed" style="color: #677279;">
+                                <h6 style="font-size: 15px;" >Direcciones: El Alto, Ciudad Satelite, C. 14, N° 2096 - La Paz, Miraflores, Av. del Ejercito, N° 1115</h6>
+                                <h6 style="font-size: 15px;" >Correo: ventas@jslabglass.com</h6>
+                                <h6 style="font-size: 15px;" >Teléfonos: 2913637 - 76584482</h6>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0 ffRalBol">
+                            <div style="color: #677279;">
+                                <h5 class="pb-2">Productos</h5>                           
+                            </div>
+                            
+                            <div class="ffRalMed" style="color: #677279;">
+                                <h6 style="font-size: 15px;" >Material de Vidrio</h6>
+                                <h6 style="font-size: 15px;" >Insumos Médicos</h6>
+                                <h6 style="font-size: 15px;" >Equipos de Laboratorio</h6>
+                                <h6 style="font-size: 15px;" >COVID-19</h6>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0 ffRalBol">
+                            <div style="color: #677279;">
+                                <h5 class="pb-2"></h5>                           
+                            </div>
+                            
+                            <div class="ffRalMed" style="color: #677279;">
+                                <h6 style="font-size: 15px;" >Nosotros</h6>
+                                <h6 style="font-size: 15px;" >Responsalibidad Social</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="border-top: 1px solid #e1e3e4 ">
+                    <div class=" row mx-0  py-3">
+                        <div class=" col-6 px-0 ffRalMed d-flex align-items-center">                                                    
+                            <div class=" ffRalMed" style="color: #afb4b6;">
+                                <h6 class="mb-0" style="font-size: 15px;" >Copyright © 2021  jslabglass.com. Rights reserved.</h6>
+                            </div>
+                        </div>
+                        <div class=" col-6 px-0 ffRalMed">                                                    
+                            <div class=" ffRalMed text-end" style="color: #afb4b6;">
+                                <div class=" d-flex align-items-center justify-content-end">
+                                    <div class=" pe-2">
+                                        <h6 class="mb-0" style="font-size: 15px;" >Síguenos</h6>
+                                    </div>
+                                    <div>
+                                        <a class="p-1" href="https://www.facebook.com/jslabimportaciones"><img src="./images/c_fb.png" height="30" alt=""></a>
+                                        <a class="p-1" href="https://www.linkedin.com"><img src="./images/c_li.png" height="30" alt=""></a>
+                                        <a class="py-1 ps-1" href="https://www.instagram.com"><img src="./images/c_ig.webp" height="30" alt=""></a>
+                                    </div>
+                                    <!-- <a class="p-1" href=""><img src="./images/c_yt.png" height="30" alt=""></a> -->
 
-
-
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
-
-
-    </main>
+    </footer>
 
     <!-- <div>
 

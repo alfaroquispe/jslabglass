@@ -13,8 +13,17 @@
 .ffUbuReg {
     font-family: Ubuntu-Regular;
 }
+.ffUbuLig {
+    font-family: Ubuntu-Light;
+}
 .ffRalSB {
     font-family: Raleway-SemiBold;
+}
+.ffRalMed {
+    font-family: Raleway-Medium;
+}
+.ffRalReg {
+    font-family: Raleway-Regular;
 }
 .ffRalBol {
     font-family: Raleway-Bold;
