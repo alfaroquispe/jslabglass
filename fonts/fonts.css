@@ -7,4 +7,28 @@
     font-family: Montserrat-BlackItalic;
     src: url(./Montserrat-BlackItalic.ttf);
 }
+@font-face {
+    font-family: Ubuntu-Medium;
+    src: url(./ubuntu/Ubuntu-Medium.ttf);
+}
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url(./ubuntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: Raleway-Black;
+    src: url(./raleway/static/Raleway-Black.ttf);
+}
+@font-face {
+    font-family: Raleway-BlackItalic;
+    src: url(./raleway/static/Raleway-BlackItalic.ttf);
+}
+@font-face {
+    font-family: Raleway-ExtraBoldItalic;
+    src: url(./raleway/static/Raleway-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: Raleway-ExtraBold;
+    src: url(./raleway/static/Raleway-ExtraBold.ttf);
+}
 
