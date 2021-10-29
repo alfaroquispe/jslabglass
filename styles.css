@@ -40,3 +40,53 @@
 .ffRalEBo {
     font-family: Raleway-ExtraBold;
 }
+.ffAto {
+    font-family: Atomic;
+}
+.stroke {
+    -webkit-text-fill-color: yellowgreen;
+    -webkit-text-stroke: 1px black;
+}
+
+main{
+    background-image: url('./images/fondo3.png');
+    background-repeat: repeat;
+    background-position: 50% 50%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+}
+
+.titles{
+    color: rgb(255, 255, 255) !important;
+    text-shadow: rgb(64, 76, 242) 0px 0px 10px, rgb(64, 76, 242) 0px 0px 20px, rgb(64, 76, 242) 0px 0px 30px, rgb(64, 76, 242) 0px 0px 40px, rgb(64, 76, 242) 0px 0px 70px, rgb(64, 76, 242) 0px 0px 80px, rgb(64, 76, 242) 0px 0px 100px;
+}
+.titles1{
+    color: rgb(255, 255, 255) !important;
+    text-shadow: rgb(255 255 255) 0px 0px 10px, rgb(255 255 255) 0px 0px 20px, rgb(255 255 255) 0px 0px 30px, rgb(255, 238, 0) 0px 0px 40px, rgb(255, 238, 0) 0px 0px 70px, rgb(255, 238, 0) 0px 0px 80px, rgb(255, 238, 0) 0px 0px 100px;
+}
+.titles2{
+    color: rgb(255, 255, 255) !important;
+    text-shadow: rgb(255 255 255) 0px 0px 10px, rgb(255 255 255) 0px 0px 20px, rgb(255 255 255) 0px 0px 30px, rgb(255 0 222) 0px 0px 40px, rgb(255 0 222) 0px 0px 70px, rgb(255 0 222) 0px 0px 80px, rgb(255 0 222) 0px 0px 100px;
+}
+.titles:hover{
+    color: #b7bcfa !important;
+    cursor: pointer;    
+}
+.titles1{
+    color: rgb(255, 255, 255) !important;
+}
+.titles2{
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar-default.scrolled {
+    background:#0a138f !important;
+    opacity: 0.9;
+}
+.navbar-default.scrolled .navbar-brand {
+    color: white !important;    
+}

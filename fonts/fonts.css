@@ -51,4 +51,8 @@
     font-family: Raleway-ExtraBold;
     src: url(./raleway/static/Raleway-ExtraBold.ttf);
 }
+@font-face {
+    font-family: Atomic;
+    src: url(./atomic/AtomicAge-Regular.ttf);
+}
 
